@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(226, 43%, 10%);
+    font-family: Rubik;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 190px 190px 190px 190px;
+    grid-template-rows: 180px 180px;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.main div {
+    border-radius: 10px;
+}
+
+.recipient {
+    grid-area: 1 / 1 / 3 / 2;
+    background-color: hsl(235, 46%, 20%);
+}
+
+.recipient-inner {
+    background-color: hsl(246, 80%, 60%);
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.work {
+    background-color: hsl(15, 100%, 70%);
+}
+
+.play {
+    background-color: hsl(195, 74%, 62%);
+}
+
+.study {
+    background-color: hsl(348, 100%, 68%);
+}
+
+.exercise {
+    background-color: hsl(145, 58%, 55%);
+}
+
+.social {
+    background-color: hsl(264, 64%, 52%);
+}
+
+.self-care {
+    background-color: hsl(43, 84%, 65%);
+}
+
+.bg-svg {
+    float: right;
+    height: 50px;
+}
+
+.ellipse {
+    float: right;
+}
+
+.inner {
+    margin-top: 50px;
+    height: 130px;
+    background-color: hsl(235, 46%, 20%);
+    color: white;
+}
+
+img {
+    width: 60px; 
+    height: 60px; 
+    border: solid white 4px; 
+    border-radius: 40px;
+}
